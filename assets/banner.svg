@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-labelledby="title desc">
+  <title id="title">Phishing URL Detector</title>
+  <desc id="desc">Cybersecurity-themed 3D banner for a GPT-2 phishing URL classification project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#040817"/>
+      <stop offset="0.45" stop-color="#081b35"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#24e5ff" stop-opacity=".25"/>
+      <stop offset=".55" stop-color="#2b7cff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#020611" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8cf8ff"/>
+      <stop offset=".5" stop-color="#15d9ff"/>
+      <stop offset="1" stop-color="#2878ff"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9d9d"/>
+      <stop offset=".5" stop-color="#ff3f6c"/>
+      <stop offset="1" stop-color="#a9003f"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#112943" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#07131f" stop-opacity=".97"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="30" stdDeviation="24" flood-color="#000814" flood-opacity=".85"/>
+    </filter>
+    <filter id="cyanGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M 56 0 L 0 0 0 56" fill="none" stroke="#5eeaff" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="640" rx="36" fill="url(#bg)"/>
+  <rect width="1600" height="640" rx="36" fill="url(#glow)"/>
+  <rect width="1600" height="640" rx="36" fill="url(#grid)"/>
+
+  <circle cx="130" cy="95" r="115" fill="#11dfff" opacity=".07"/>
+  <circle cx="1485" cy="545" r="210" fill="#2767ff" opacity=".08"/>
+  <path d="M0 530 C310 430 490 690 850 520 C1140 385 1320 590 1600 450 L1600 640 L0 640Z" fill="#0b2740" opacity=".42"/>
+
+  <!-- 3D browser card -->
+  <g transform="translate(875 105) rotate(-2 285 210)" filter="url(#shadow)">
+    <rect x="35" y="38" width="565" height="405" rx="30" fill="#020711" opacity=".7"/>
+    <rect x="18" y="18" width="565" height="405" rx="30" fill="#07111e" stroke="#1d557d" stroke-width="2"/>
+    <rect width="565" height="405" rx="30" fill="url(#panel)" stroke="#42e7ff" stroke-opacity=".58" stroke-width="2.5"/>
+    <path d="M0 74 H565" stroke="#48dffa" stroke-opacity=".25" stroke-width="2"/>
+    <circle cx="34" cy="37" r="8" fill="#ff5f57"/>
+    <circle cx="60" cy="37" r="8" fill="#febc2e"/>
+    <circle cx="86" cy="37" r="8" fill="#28c840"/>
+    <rect x="120" y="21" width="408" height="32" rx="16" fill="#020a13" stroke="#29516e"/>
+    <circle cx="144" cy="37" r="7" fill="none" stroke="#46e8ff" stroke-width="2"/>
+    <path d="M149 42 l8 8" stroke="#46e8ff" stroke-width="2"/>
+    <text x="172" y="43" fill="#91a9ba" font-family="Segoe UI, Arial, sans-serif" font-size="14">https://secure-account-check.example</text>
+
+    <g transform="translate(48 112)">
+      <rect width="468" height="72" rx="16" fill="#05101b" stroke="#18445f"/>
+      <circle cx="38" cy="36" r="20" fill="#ff3f6c" opacity=".16"/>
+      <path d="M38 20 L54 48 H22Z" fill="none" stroke="#ff557b" stroke-width="3"/>
+      <path d="M38 29 v9 M38 44 v2" stroke="#ff557b" stroke-width="3" stroke-linecap="round"/>
+      <text x="76" y="31" fill="#f7fbff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Suspicious URL Pattern</text>
+      <text x="76" y="54" fill="#8fa8ba" font-family="Segoe UI, Arial, sans-serif" font-size="14">Analyzing tokens, structure, and learned context…</text>
+    </g>
+
+    <g transform="translate(48 212)">
+      <rect width="222" height="130" rx="18" fill="#061724" stroke="#1b5673"/>
+      <text x="22" y="33" fill="#87a5b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">MODEL</text>
+      <text x="22" y="68" fill="#f4fbff" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="800">GPT-2</text>
+      <text x="22" y="99" fill="#54e8ff" font-family="Segoe UI, Arial, sans-serif" font-size="15">URL → Class</text>
+      <path d="M139 94 C159 63 183 63 205 38" fill="none" stroke="url(#cyan)" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="205" cy="38" r="7" fill="#6af2ff"/>
+    </g>
+
+    <g transform="translate(290 212)">
+      <rect width="226" height="130" rx="18" fill="#20101a" stroke="#8c2847"/>
+      <text x="22" y="33" fill="#d6a3b2" font-family="Segoe UI, Arial, sans-serif" font-size="14">PREDICTION</text>
+      <text x="22" y="74" fill="#ff6487" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">PHISHING</text>
+      <rect x="22" y="94" width="177" height="8" rx="4" fill="#4c1728"/>
+      <rect x="22" y="94" width="151" height="8" rx="4" fill="url(#red)"/>
+    </g>
+  </g>
+
+  <!-- Shield -->
+  <g transform="translate(108 135)" filter="url(#cyanGlow)">
+    <path d="M106 0 L212 38 V116 C212 191 164 247 106 276 C48 247 0 191 0 116 V38Z" fill="#071824" stroke="url(#cyan)" stroke-width="7"/>
+    <path d="M106 35 L177 61 V119 C177 166 148 204 106 229 C64 204 35 166 35 119 V61Z" fill="#0b2c3d" stroke="#42e9ff" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M69 125 l25 25 53-65" fill="none" stroke="#65f3ff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Main copy -->
+  <g transform="translate(355 150)">
+    <text x="0" y="0" fill="#61ecff" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">INFORMATION SECURITY • NLP</text>
+    <text x="0" y="76" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="900">Phishing URL</text>
+    <text x="0" y="143" fill="url(#cyan)" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="900">Detector</text>
+    <text x="2" y="194" fill="#a7bfd0" font-family="Segoe UI, Arial, sans-serif" font-size="21">GPT-2 fine-tuning for intelligent malicious URL classification</text>
+
+    <g transform="translate(0 235)">
+      <rect width="139" height="42" rx="21" fill="#0b2635" stroke="#29dfff" stroke-opacity=".65"/>
+      <text x="69.5" y="27" text-anchor="middle" fill="#8ef5ff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">BENIGN</text>
+      <rect x="153" width="158" height="42" rx="21" fill="#261421" stroke="#ff5278" stroke-opacity=".7"/>
+      <text x="232" y="27" text-anchor="middle" fill="#ff9ab0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">PHISHING</text>
+      <rect x="325" width="181" height="42" rx="21" fill="#211d0e" stroke="#ffcf4c" stroke-opacity=".65"/>
+      <text x="415.5" y="27" text-anchor="middle" fill="#ffe29a" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">DEFACEMENT</text>
+    </g>
+  </g>
+
+  <text x="110" y="590" fill="#6f8fa5" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1.5">MUHAMMAD BILAL ASHIQ  •  FAIEZ TARIQ  •  BILAL AHMAD  •  ALI HAMZA</text>
+</svg>
